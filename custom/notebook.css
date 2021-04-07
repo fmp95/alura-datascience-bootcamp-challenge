@@ -1,0 +1,155 @@
+/*        */
+/* COLORS */
+/*        */
+
+.notebook_app,
+#header,
+#header *,
+#site,
+#site *,
+.nbviewer,
+.nbviewer * {
+    background-color: #202024 !important;
+}
+
+#header, #header * {
+    color: #F5F5F5 !important
+}
+
+
+.text_cell * {
+    color: #F5F5F5;
+}
+
+.rendered_html h1 *,
+.text_cell_render h1 *,
+.rendered_html h1,
+.text_cell_render h1,
+.rendered_html h2 *,
+.text_cell_render h2 *,
+.rendered_html h2,
+.text_cell_render h2,
+.rendered_html h3 *,
+.text_cell_render h3 *,
+.rendered_html h3,
+.text_cell_render h3 {
+    color: #8feaa1; !important
+}
+
+.CodeMirror-line,
+.cm-variable,
+.output_text pre,
+.output_subarea,
+.output_html,
+.rendered_html,
+.output_result,
+.dataframe,
+.dataframe *,
+.n,
+.nn,
+.input_area * {
+    color: #F5F5F5 !important
+}
+
+.cm-builtin,
+.cm-keyword,
+.kn,
+.k,
+.ow,
+.nb,
+.nv {
+    color: #8feaa1 !important
+}
+
+.cm-error,
+.cm-operator,
+.cm-string,
+.s2 {
+    color: #e57373 !important
+} 
+
+.cm-property {
+    color: #4DB6AC !important
+}
+
+.cm-comment,
+.c1 {
+    color: #FFF59D !important;
+    opacity: 0.3;
+}
+
+.anchor-link {
+    display: none;
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+    padding: 0px;
+    margin: 0px;
+    visibility: hidden;
+}
+
+.dataframe thead {
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.prompt {
+    color: #90CAF9 !important
+}
+
+.CodeMirror-cursor {
+    border-left: 2px solid #F5F5F5;
+}
+
+.text_cell_render table thead,
+.rendered_html table thead {
+    border-bottom: 1px solid #F5F5F5
+}
+
+/*        */
+/* FONTS  */
+/*        */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Roboto&display=swap');
+
+.CodeMirror,
+.code_cell *{
+    font-family: "Fira Code"; !important
+}
+
+.notebook_app *,
+.nbviewer *,
+.dataframe * {
+    font-family: Roboto;
+}
+
+/*        */
+/* STYLE  */
+/*        */
+
+.text_cell_render p,
+.rendered_html p {
+    text-align: justify;
+}
+
+.text_cell_render,
+.rendered_html {
+    line-height: 1.5em;
+    letter-spacing: 1.5px;
+}
+
+.input_area {
+    border: 1px dashed #616161 !important;
+}
+
+.CodeMirror {
+    line-height: 1.5em;
+    letter-spacing: 1.5px;
+}
+
+.text_cell_render * {
+    text-decoration: none !important;
+}
+
+.text_cell_render a:hover {
+    color: #8feaa1;
+}
