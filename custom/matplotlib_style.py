@@ -82,6 +82,8 @@ matplotlib_style = {
     "grid.linewidth": 0.5,
 
     "legend.fontsize": 18,
+    "legend.facecolor": white,
+    
 
     "mathtext.default": "default",
 
