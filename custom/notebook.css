@@ -111,13 +111,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Roboto&display=swap');
 
+.notebook_app *,
+.nbviewer * {
+    font-family: Roboto;
+}
+
 .CodeMirror,
 .code_cell *{
     font-family: "Fira Code"; !important
 }
 
-.notebook_app *,
-.nbviewer *,
 .dataframe * {
     font-family: Roboto;
 }
