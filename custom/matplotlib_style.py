@@ -69,35 +69,26 @@ matplotlib_style = {
     "axes.titlecolor": green,
     "axes.titleweight": "bold",
     "axes.titlelocation": "left",
+    "axes.titlepad": 30,
     "axes.titlesize": 28,
     "axes.prop_cycle": color_cycler,
-
     "figure.figsize": [15, 10],
-
     "font.family": "Roboto",
-
     "grid.alpha": 0.2,
     "grid.color": white,
     "grid.linestyle": "--",
     "grid.linewidth": 0.5,
-
     "legend.fontsize": 18,
     "legend.facecolor": white,
-    
-
     "mathtext.default": "default",
-
     "xtick.labelcolor": green,
     "xtick.labelsize": 14,
-    "xtick.alignment": "left",
+    "xtick.alignment": "center",
     "xaxis.labellocation": "left",
-
     "ytick.labelcolor": green,
     "ytick.labelsize": 14,
-    "ytick.alignment": "bottom",
+    "ytick.alignment": "center",
     "yaxis.labellocation": "bottom",
-
-    'image.cmap': 'Pastel2',
-
+    "image.cmap": "Pastel2",
     "lines.linewidth": 3,
 }
