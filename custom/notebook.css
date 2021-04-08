@@ -17,7 +17,9 @@
 .CodeMirror,
 .dataframe,
 .dataframe *,
-.text_cell *{
+.text_cell *,
+.inner_cell,
+.input_area {
     background-color: #202024 !important;
 }
 
