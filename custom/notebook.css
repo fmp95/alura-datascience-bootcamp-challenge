@@ -3,12 +3,21 @@
 /*        */
 
 .notebook_app,
+#site,
+.nbviewer {
+    background-color: #202024;
+}
+
 #header,
 #header *,
-#site,
-#site *,
 .nbviewer,
-.nbviewer * {
+.nbviewer *,
+.cell,
+.container,
+.CodeMirror,
+.dataframe,
+.dataframe *,
+.text_cell *{
     background-color: #202024 !important;
 }
 
@@ -78,14 +87,9 @@
     opacity: 0.3;
 }
 
-.anchor-link {
-    display: none;
-    height: 0px;
-    width: 0px;
-    font-size: 0px;
-    padding: 0px;
-    margin: 0px;
-    visibility: hidden;
+
+.text_cell_render a:hover {
+    color: #8feaa1;
 }
 
 .dataframe thead {
@@ -103,6 +107,10 @@
 .text_cell_render table thead,
 .rendered_html table thead {
     border-bottom: 1px solid #F5F5F5
+}
+
+.CodeMirror-selected{
+    background: #673f5e !important;
 }
 
 /*        */
@@ -136,6 +144,7 @@
 .rendered_html {
     line-height: 1.5em;
     letter-spacing: 1.5px;
+    font-size: 1.5rem;
 }
 
 .input_area {
@@ -144,13 +153,21 @@
 
 .CodeMirror {
     line-height: 1.5em;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    padding: 2rem;
 }
 
 .text_cell_render * {
     text-decoration: none !important;
 }
 
-.text_cell_render a:hover {
-    color: #8feaa1;
+.anchor-link {
+    display: none;
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+    padding: 0px;
+    margin: 0px;
+    visibility: hidden;
 }
