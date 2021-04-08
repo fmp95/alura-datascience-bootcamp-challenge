@@ -151,7 +151,8 @@
     border: 1px dashed #616161 !important;
 }
 
-.CodeMirror {
+.CodeMirror,
+.code_cell{
     line-height: 1.5em;
     letter-spacing: 1px;
     font-size: 1.2rem;
