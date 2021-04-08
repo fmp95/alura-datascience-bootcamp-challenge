@@ -152,7 +152,7 @@
 }
 
 .CodeMirror,
-.code_cell{
+.input_area {
     line-height: 1.5em;
     letter-spacing: 1px;
     font-size: 1.2rem;
