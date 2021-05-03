@@ -3,3 +3,4 @@ nb-black==1.0.7
 notebook==6.3.0
 pandas==1.2.3
 openpyxl==3.0.7
+requests==2.25.1
